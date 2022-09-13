@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,4 +10,23 @@
     html {
         font-family: 'Poppins', sans-serif;
     }
+}
+
+@font-face {
+    font-family: "Kids Stuff";
+    font-weight: 700;
+    src: local("kidstuff"),
+     url(~assets/font/kidstuff/kidstuffbold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Kids Stuff";
+    font-weight: 800;
+    src: local("kidstuff"),
+     url(~assets/font/kidstuff/kidstuffextrabold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Kids Stuff";
+    font-weight: 400;
+    src: local("kidstuff"),
+     url(~assets/font/kidstuff/kidstuff1.ttf) format("truetype");
 }
